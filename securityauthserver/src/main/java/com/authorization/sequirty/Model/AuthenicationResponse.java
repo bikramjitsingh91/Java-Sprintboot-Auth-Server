@@ -1,4 +1,4 @@
-package com.example.appbackendapi.Model;
+package com.authorization.sequirty.Model;
 
 public class AuthenicationResponse {
 

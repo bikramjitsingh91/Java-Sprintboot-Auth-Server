@@ -1,7 +1,6 @@
-package com.example.appbackendapi.Service;
+package com.authorization.sequirty.Service;
 
-import com.example.appbackendapi.Entity.User;
-import com.example.appbackendapi.Model.UserModel;
+import com.authorization.sequirty.Model.UserModel;
 
 import java.util.List;
 

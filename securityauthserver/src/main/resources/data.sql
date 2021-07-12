@@ -9,5 +9,6 @@ CREATE TABLE IF NOT EXISTS  Users (
 
 
 INSERT INTO Users (username, password, role) VALUES
-  ('bsingh91', '12345', 'ROLE_USER'),
-  ('tom21', '12345', 'ROLE_USER');
+  ('bsingh91', 'password', 'ROLE_USER'),
+  ('tom21', 'password', 'ROLE_USER'),
+('enduser', 'password', 'ROLE_USER');

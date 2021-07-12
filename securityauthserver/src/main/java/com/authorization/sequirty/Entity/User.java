@@ -1,7 +1,6 @@
-package com.example.appbackendapi.Entity;
+package com.authorization.sequirty.Entity;
 
 import lombok.*;
-import org.hibernate.annotations.Generated;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

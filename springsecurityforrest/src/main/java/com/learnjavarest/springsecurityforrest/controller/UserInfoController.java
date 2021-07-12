@@ -19,5 +19,4 @@ public class UserInfoController {
         return new ResponseEntity<UserReq>(userReq, HttpStatus.OK);
     }
 
-
 }

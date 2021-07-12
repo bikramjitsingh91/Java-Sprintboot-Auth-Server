@@ -1,6 +1,6 @@
-package com.example.appbackendapi.Service;
+package com.authorization.sequirty.Service;
 
-import com.example.appbackendapi.Entity.User;
+import com.authorization.sequirty.Entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -17,12 +17,12 @@ public class MyUserDetail implements UserDetails {
     }
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return Arrays.asList(new SimpleGrantedAuthority("ROLE_USER"));
+        return Arrays.asList(new SimpleGrantedAuthority(user.getRole()));
     }
 
     @Override
     public String getPassword() {
-        return "pass2";//user.getPassword();
+        return user.getPassword();
     }
 
     @Override
