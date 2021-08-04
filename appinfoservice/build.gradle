@@ -36,6 +36,12 @@ dependencies {
     compile group: 'org.springframework.security.oauth.boot', name: 'spring-security-oauth2-autoconfigure', version: '2.3.3.RELEASE'
     implementation group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13.2'
     implementation group: 'com.itextpdf.tool', name: 'xmlworker', version: '5.5.13.2'
+    // https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf
+    implementation group: 'org.thymeleaf', name: 'thymeleaf', version: '3.0.12.RELEASE'
+    // https://mvnrepository.com/artifact/org.xhtmlrenderer/flying-saucer-pdf
+    implementation group: 'org.xhtmlrenderer', name: 'flying-saucer-pdf', version: '9.1.22'
+    // https://mvnrepository.com/artifact/org.xhtmlrenderer/flying-saucer-pdf-itext5
+    implementation group: 'org.xhtmlrenderer', name: 'flying-saucer-pdf-itext5', version: '9.0.1'
 
 
 }
